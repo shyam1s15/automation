@@ -124,6 +124,7 @@ class TestAppium(unittest.TestCase):
 
 
     def perform_login_activity(self) -> None:
+        time.sleep(2)
         self.print_all_views()
         self.click_button_by_text("Get Started")
 
